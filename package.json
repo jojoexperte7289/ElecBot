@@ -4,7 +4,7 @@
   "description": "A Discord Bot from jojoexperte7289",
   "main": "index.js",
   "scripts": {
-    "test": "debug index.js"
+    "test": "debug src/index.js"
   },
   "author": "jojoexperte7289",
   "license": "ISC",
