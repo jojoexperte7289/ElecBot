@@ -1,0 +1,14 @@
+{
+  "name": "elecbot",
+  "version": "1.0.0",
+  "description": "A Discord Bot from jojoexperte7289",
+  "main": "index.js",
+  "scripts": {
+    "test": "debug index.js"
+  },
+  "author": "jojoexperte7289",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js":"^14.14.1"
+  }
+}
