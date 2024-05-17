@@ -27,6 +27,7 @@ for (const folder of commandFolders) {
 	}
 }
 
+// Handler for the interactions
 client.on(Events.InteractionCreate, async interaction => {
 	if (!interaction.isChatInputCommand()) return;
 
@@ -48,8 +49,6 @@ client.on(Events.InteractionCreate, async interaction => {
 		}
 	}
 });
-
-
 
 // When the client is ready, run this code (only once).
 // The distinction between `client: Client<boolean>` and `readyClient: Client<true>` is important for TypeScript developers.
