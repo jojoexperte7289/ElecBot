@@ -14,7 +14,7 @@ module.exports = {
 				.setName('message')
 				.setDescription('The message.')
                 .setRequired(true))
-        .setDefaultMemberPermissions(PermissionFlagsBits.ManageMessages),
+        .setDefaultMemberPermissions(PermissionFlagsBits.Administrator),
 
 	async execute(interaction) {
 		const user = interaction.options.getUser('target');
